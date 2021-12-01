@@ -1,0 +1,175 @@
+.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 960px;
+  }
+.container_13{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 275px;
+    background-color:rgb(255, 255, 255);
+    padding-top: 150px;
+
+}
+.container_14 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  background-color:rgb(255, 255, 255);
+
+}
+  .container_12 .grid_5 {
+    width: 380px;
+  }
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin: auto;
+    border-top: 20px solid rgb(255, 255, 255);
+  }
+  .container {
+    float:center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 0%;
+    height: 300px;
+    display: flex;
+    justify-content:space-between;
+    }
+   
+   .box1 {
+    float:left;
+    background-color: aqua;
+    width: 350px;
+    height: 250px;
+    }
+    .box2 {
+    float:left;
+    background-color: #331c9c;
+    width: 350px;
+    height: 250px;
+    }
+    .box3 {
+    float:left;
+    background-color:aqua;
+    width: 350px;
+    height: 250px;
+    }
+h1,h2,h3,li,p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+   
+
+.grid_5,
+.grid_7 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav {
+    float: right;
+    font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+    padding: 45px 0px 0px 0px;
+    text-align: right;}
+
+.header {
+    background-color: #331c9c;
+    opacity: 100%;
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+    left: 0;
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto;
+    background-color: rgb(161, 108, 37);
+    text-align: left;}
+body {
+    min-width: 960px;
+}
+a {
+  color: #cecece;
+  text-decoration: none;}
+a:hover {
+ color: #ffffff;}
+
+
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #331c9c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3e24b3;
+}
+
+/* Style the container/contact section */
+.container_1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 0px;
+  padding-left: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.footer {
+  clear: both;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+}
+.footer p {
+  font-size: 75%;
+  text-align: right;
+  float: right;
+}
+.footer a {
+  color: #807c72;}
